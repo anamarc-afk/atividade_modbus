@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Terminal 1 — servidor:
 
 ```bash
-python mains.py
+python main.py
 ```
 
 Terminal 2 — cliente e demonstrações:
@@ -37,7 +37,7 @@ Porta: `502`
 ## Mapa de dados
 
 | Tag | Descrição | Tipo | Endereço | Registradores | Bit | Div | Multiplicador | Unidade |
-
+|---|---|---:|---:|---:|---:|---:|---:|---|
 | `bc.temp_r` | Temperatura R | float32 | 700 | 2 | — | 10 | 0,1 | °C |
 | `bc.temp_s` | Temperatura S | float32 | 702 | 2 | — | 10 | 0,1 | °C |
 | `bc.temp_t` | Temperatura T | float32 | 704 | 2 | — | 10 | 0,1 | °C |
